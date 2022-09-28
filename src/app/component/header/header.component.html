@@ -1,0 +1,49 @@
+
+<nav class="navbar navbar-expand-lg p-4" id="slider"  [style.color]="color=='#081429' ? 'white' : 'black'" >
+  <div class="container">
+    <div class="left">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <a class="navbar-brand mt-2 mt-lg-0 collapse navbar-collapse" id="navbarSupportedContent">
+        <img
+          src="https://www.applogiq.org/assets/images/logo.gif"
+          height="35"
+          alt="MDB Logo"
+          loading="lazy"
+        />
+      </a>
+    </div>
+
+    <div class="right">
+      <div class="d-flex align-items-center">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+            <li class="nav-item mx-3">
+              <a class="nav-link" [ngStyle]="{'color':color=='#081429'?'white':'black'}" href="#">Services</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link"  [ngStyle]="{'color':color=='#081429'?'white':'black'}" href="#">Find Jobs</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link"  [ngStyle]="{'color':color=='#081429'?'white':'black'}" href="#">About Us</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link"  [ngStyle]="{'color':color=='#081429'?'white':'black'}" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
